@@ -1,3 +1,19 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5e9e560eee0f164e0ae763c9c301cd6c96c9a3991a9db42113f58f67208aae8c
-size 306
+import React from "react";
+
+const Credits = () => {
+  return (
+    (<h1>Credits</h1>),
+    (
+      <ul>
+        <li>Bethesda</li>
+        <li>Jacksons</li>
+        <li>Eleni</li>
+        <li>UCF/Edx/2U</li>
+        <li>God</li>
+        <li>Portfolio</li>
+      </ul>
+    )
+  );
+};
+
+export default Credits;

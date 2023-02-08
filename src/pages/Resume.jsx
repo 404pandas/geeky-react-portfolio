@@ -1,3 +1,19 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:46a5e609699fa84c08b141176166a6ce164651264c9403b338330e94ac0beb36
-size 326
+import React from "react";
+
+const Resume = () => {
+  return (
+    (<h1>Resume</h1>),
+    (
+      <ul>
+        <li>Technical Skills</li>
+        <li>Soft Skills</li>
+        <li>Projects</li>
+        <li>Experience</li>
+        <li>Education</li>
+        <li>Testimonials</li>
+      </ul>
+    )
+  );
+};
+
+export default Resume;

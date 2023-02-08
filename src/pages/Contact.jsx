@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3c7c8eb23e591e2f9480e86b87ffda190e8b03fb5a954cd71e08bacecebefba8
-size 251
+import React from "react";
+
+const Contact = () => {
+  return (
+    (<h1>Contact</h1>),
+    (
+      <ul>
+        <li>Email</li>
+        <li>Phone</li>
+        <li>LinkedIn</li>
+        <li>Github</li>
+      </ul>
+    )
+  );
+};
+
+export default Contact;

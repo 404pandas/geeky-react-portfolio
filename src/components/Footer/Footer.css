@@ -1,3 +1,36 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:00456a62e89341410265ba1bb8f2df64c28c72c180c72335e3a05946f6e19d3a
-size 502
+.footerSVG {
+  position: absolute;
+  display: flex;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  flex-grow: 1;
+  justify-content: center;
+  overflow: visible;
+}
+
+.footerText {
+  z-index: 2;
+  color: var(--white);
+}
+
+.footerContainer {
+  position: relative;
+  display: flex;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  flex-grow: 1;
+  justify-content: center;
+  overflow: visible;
+}
+
+.socialMedia {
+  position: absolute;
+  display: flex;
+  min-height: 40px;
+  top: 0;
+  bottom: 0;
+  z-index: 3;
+  color: white;
+}

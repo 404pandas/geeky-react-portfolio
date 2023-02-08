@@ -1,3 +1,43 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9c38f0997ecd31a3e316ba14e957f6305c18a25432071763da18440a5513a012
-size 949
+import React from 'react'
+import { NavLink } from 'react-router-dom';
+
+const Header = () => {
+  return (
+    <nav>
+        <ul>
+            <li>
+                <NavLink to="/">
+                    Home
+                </NavLink>
+            </li>
+            <li>
+                <NavLink to="/About">
+                    About
+                </NavLink>
+            </li>
+            <li>
+                <NavLink to="/Portfolio">
+                    Portfolio
+                </NavLink>
+            </li>
+            <li>
+                <NavLink to="/Resume">
+                    Resume
+                </NavLink>
+            </li>
+            <li>
+                <NavLink to="/Contact">
+                    Contact
+                </NavLink>
+            </li>
+            <li>
+                <NavLink to="/Credits">
+                    Credits
+                </NavLink>
+            </li>
+        </ul>
+    </nav>
+  )
+}
+
+export default Header

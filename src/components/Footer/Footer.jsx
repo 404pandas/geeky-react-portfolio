@@ -1,3 +1,25 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e81abff396210f404fefb23c3c70d5abcc557113e533b9422867dd02774506c0
-size 717
+import SocialMedia from "./SocialMedia/SocialMedia.jsx";
+import React from "react";
+import "./Footer.css";
+
+import Container from "@mui/material/Container";
+import FooterSVG from "../../assets/images/svgs/footer.svg";
+import Typography from "@mui/material/Typography";
+
+export default function Footer() {
+  return (
+    <>
+      <Container
+        className="footerContainer"
+        maxWidth="lg"
+        disableGutters={true}
+      >
+        <FooterSVG className="footerSVG" />
+        <Typography className="footerText" variant="caption" color="initial">
+          Like this portfolio? Share it by clicking an icon below!
+        </Typography>
+        <SocialMedia></SocialMedia>
+      </Container>
+    </>
+  );
+}

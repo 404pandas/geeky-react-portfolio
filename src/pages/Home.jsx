@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2ec381a23a9c4fa0557be2f8e5731ee21feb8b7622cc2e1ca262d2a5e8dddcab
-size 611
+import React from "react";
+import loadingSceneLnd from "../assets/images/openingSceneLandscape.gif";
+import loadingScenePrt from "../assets/images/openingScenePortrait.gif";
+import Header from "../components/Header/Header.jsx";
+import Footer from "../components/Footer/Footer.jsx";
+const Home = () => {
+  return (
+    <>
+      <div id="loadingScene">
+        <embed src={loadingSceneLnd} alt="Skyrim opening scene. Landscape" />
+        <embed src={loadingScenePrt} alt="Skyrim opening scene. Portrait" />
+      </div>
+      <h1>Home</h1>
+      <Header />
+      <Footer />
+    </>
+  );
+};
+
+export default Home;
