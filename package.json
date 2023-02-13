@@ -1,6 +1,3 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:465a2b60e0c1c03429b9e9b623178802c44bc6bd5b62eed0920abade23013af3
-size 2544
 {
     "name": "test-app",
     "version": "0.1.0",
