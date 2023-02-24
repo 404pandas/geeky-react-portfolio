@@ -45,7 +45,7 @@ export default function PermanentDrawerLeft() {
         <Toolbar />
         <Divider />
         <List>
-          {["About", "Contact", "Credits", "Home", "Portfolio", "Resume"].map(
+          {["Home", "About", "Contact", "Credits", "Portfolio", "Resume"].map(
             (text, index) => (
               <ListItem key={text} disablePadding>
                 <ListItemButton>
@@ -60,7 +60,7 @@ export default function PermanentDrawerLeft() {
         </List>
         <Divider />
         <List>
-          {["About", "Contact", "Credits", "Home", "Portfolio", "Resume"].map(
+          {["Home", "About", "Contact", "Credits", "Portfolio", "Resume"].map(
             (text, index) => (
               <ListItem key={text} disablePadding>
                 <ListItemButton>
@@ -79,8 +79,7 @@ export default function PermanentDrawerLeft() {
         sx={{ flexGrow: 1, bgcolor: "background.default", p: 3 }}
       >
         <Toolbar />
-        <Typography paragraph>Permanent Drawer goes here</Typography>
-        <Typography paragraph>Permanent Drawer goes here</Typography>
+        <Typography paragraph>This is the area for the sidebar</Typography>
       </Box>
     </Box>
   );

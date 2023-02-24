@@ -15,15 +15,10 @@ export default function App() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/About" element={<About />} />
-      {/* <Route path="/About/*" element={<NestedAbout />} /> */}
       <Route path="/Contact" element={<Contact />} />
-      {/* <Route path="/Contact/*" element={<NestedContact />} /> */}
       <Route path="/Credits" element={<Credits />} />
-      {/* <Route path="/Credits/*" element={<NestedCredits />} /> */}
       <Route path="/Portfolio" element={<Portfolio />} />
-      {/* <Route path="/Portfolio/*" element={<NestedPortfolio />} /> */}
       <Route path="/Resume" element={<Resume />} />
-      {/* <Route path="/Resume/*" element={<Resume />} /> */}
     </Routes>
   </>;
 }
